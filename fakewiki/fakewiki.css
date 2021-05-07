@@ -1,0 +1,69 @@
+header div {
+  padding: 7px;
+  margin: 0px;
+  background-color: #9ccfd1;
+}
+
+nav {
+  padding: 15px;
+  margin: 2px;
+  background-color: #dcf1f5;
+  display: inline-flex;
+}
+nav ul {
+  column-count: 2;
+  column-gap: 1px;
+  margin: left 12rem;
+}
+nav ul a {
+  text-decoration-line: none;
+}
+nav ul a:hover {
+  text-decoration: underline;
+}
+nav ul li {
+  margin: left 10px;
+}
+
+.containers {
+  padding: 15px;
+  margin: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar {
+  background-color: lightgrey;
+  flex: 1;
+  flex-basis: 5%;
+}
+.sidebar ul li {
+  list-style: none;
+  color: black;
+  padding: 2px;
+  margin: 15px;
+}
+.sidebar a {
+  text-decoration-line: none;
+  color: black;
+}
+.sidebar a:hover {
+  color: cadetblue;
+}
+
+.article1 {
+  background-color: lightsteelblue;
+  flex: 4;
+}
+
+.article2 {
+  background-color: lightsteelblue;
+  flex: 3;
+}
+
+div3 {
+  display: flex;
+  background-color: paleturquoise;
+}
+
+/*# sourceMappingURL=fakewiki.css.map */
